@@ -1,0 +1,56 @@
+body {
+    background: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: .6em;
+}
+
+i {
+    font-size: 1.7em;
+}
+
+h1, h2 {
+    margin: 0;       
+}
+
+h1 {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: .6em;
+    line-height: .8em;
+}
+
+.head-tags {
+    margin-left: .5em;    
+}
+
+.cont-left {
+    display: flex;
+}
+
+.buttons {
+    margin-top: .5em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5em 0 .5em;
+}
+
+p {
+    padding: 0 .7em 0 .7em;
+}
+
+.text-content {   
+    padding-bottom: .5em;
+}
